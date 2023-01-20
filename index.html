@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assesment 4</title>
+</head>
+<body>
+    <h1 align="center">HTML Assesment</h1>
+    <p align="center">HTML assesment from prepbytes</p>
+    <hr/>
+    <h3 align="center">Form</h3>
+    <form action="" align="center" method="get">
+        Name : <input type="text" name="name" value="" placeholder="Name"><br/><br>
+        Email Address :<input type="mail" name="email" value="" placeholder="email"><br><br>
+        Password :<input type="password" name="pass" placeholder="password"><br><br>
+        Phone No. :<input type="text" name="phone" id=""><br><br>
+        <label for="">Language</label> <br><br>
+        <input type="radio" name="Lang" value="react">React <br>
+        <input type="radio" name="Lang" value="angular">Angular <br>
+        <input type="radio" name="Lang" value="Vue">Vue <br><br>
+        <label for="">Course</label> <br><br>
+        <input type="checkbox" name="course" value="mern">Mern <br>
+        <input type="checkbox" name="course" value="mean">Mean <br>
+        <input type="checkbox" name="course" value="mevn">Mevn <br><br>
+        <label for="">Field</label><br>
+        <select name="field" id="">
+            <option value="front end">Front End</option>
+            <option value="back end">Back End</option>
+            <option value="fullstack">Fullstack</option>
+        </select><br><br>
+        <input type="submit" name="" value="submit">
+
+    </form>
+    <div align="center">
+    <hr>
+    <p>image used from Absolute path</p>
+    <img src="./logoPrepBytes.svg" alt="prep">
+    <p>image used from Relative path</p>
+    <img src="hfghg" alt="image"> <br><br>
+    <a href="https://www.prepbytes.com/" target="_blank">Link shoud be open in another tab</a><br><br>
+    <a href="https://www.prepbytes.com/">Link should be open in same tab</a> <br>
+    </div>
+    <hr>
+    <div>
+        <h4>List</h4>
+        <ul>
+            <li>Mobile Development</li>
+            <li>web Development</li>
+            <ul type="disc">
+                <li>rect</li>
+                <li>Angular</li>
+                <li>Vue</li>
+            </ul>
+            <li>Cloud server</li>
+        </ul>
+    </div>
+    <hr>
+    <div align="center">
+        <h4>Table</h4>
+        <table border="1" style="width: 50%">
+            <tr>
+                <th>Course</th>
+                <th style="background-color: gray;">Counter Detail</th>
+                <th>Date of joining</th>
+            </tr>
+            <tr>
+                <td>Elevation Academy</td>
+                <td>1234567890</td>
+                <td>2 Dec 2022</td>
+            </tr>
+            <tr>
+                <td style="background-color: grey;">Elevation Academy</td>
+                <td rowspan="2">123456789</td>
+                <td>2 Dec 2022</td>
+            </tr>
+            <tr>
+                <td>Elavation Academy</td>
+                <td style="background-color: grey;">2 Dec 2022</td>
+                <td>&nbsp;</td>
+                
+            </tr>
+
+        </table>
+    </div>
+
+</body>
+</html>
